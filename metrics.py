@@ -54,7 +54,7 @@ def GetMetrics(X, Y, rm_params, lm_params, wass_params, rm_objective = 'maximize
       norm_factor = p*alpha + (1-p)*(1-beta)
       RM_weight = (p*(F_y <= alpha)+(1-p)*(F_y > beta))/norm_factor
     
-    elif rm_type == 'custom':
+    elif rm_type == 'mean-CVaR':
       RM_weight = 10/11 * (F_y <= alpha)/alpha + 1/11
 
     else:
