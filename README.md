@@ -6,3 +6,8 @@ Some implementations of the three examples from the paper:
 https://arxiv.org/abs/2108.10403
 
 The modules for running the example files may be found in the modules branch.
+
+There are three example problems solved using the approach in the paper:
+I   Robust static portfolio allocation
+II  Beating a benchmark
+III Robust Statistical Arbitrage
